@@ -21,7 +21,7 @@ python3 -m venv nama-env
 
 keempat Aktifkan Virtual Environmentnya:
 ```
-souce nama-env/bin/activate
+source nama-env/bin/activate
 ```
 
 Setelah itu install library yang di butuhkan:
