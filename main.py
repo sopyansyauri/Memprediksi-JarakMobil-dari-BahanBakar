@@ -45,12 +45,13 @@ while (loop):
     else:
         break
 
-Liter = pd.DataFrame(Liter, columns=["liter"])
+Liter = pd.DataFrame(Liter, columns=["Liter"])
 # print(Liter)
 prediksi = np.int_(model1.predict(Liter))
 Prediksi = pd.DataFrame(prediksi, columns=["Kilometer"])
 # print(Prediksi)
 
+print("\n")
 print("==============")
 print("Hasil Prediksi")
 print("==============")
